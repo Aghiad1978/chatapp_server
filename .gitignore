@@ -1,3 +1,4 @@
 node_modules/
 app_download/
 uploads/
+.env

@@ -34,6 +34,8 @@ async function saveUser(req, res) {
       const err = error.errmsg;
       return res.status(400).json({ error: `error in ${err}` });
     } else {
+      console.log(error);
+      
       return res.status(400).json({ error: "error while registration" });
     }
   }

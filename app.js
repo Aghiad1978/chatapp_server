@@ -17,6 +17,8 @@ const __dirname = path.dirname(__filename);
 console.log(__dirname);
 
 const serverPort = process.env.SERVER_PORT;
+console.log(serverPort);
+
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     let subfolder = "other";

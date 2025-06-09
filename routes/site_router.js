@@ -6,7 +6,7 @@ const routerSite = express.Router();
 
 routerSite.get("/", (re, res) => {
   res.sendFile(
-    "/mnt/Data/Codes/node/dart/chatapp1_server/static/pages/index.html"
+    "/Users/aghiadalzein/chatapp_proj/chatapp1_server/static/pages/index.html"
   );
 });
 routerSite.get(`/download`, (req, res) => {
